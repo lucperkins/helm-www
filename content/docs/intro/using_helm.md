@@ -9,11 +9,11 @@ menu:
 
 This guide explains the basics of using Helm to manage
 packages on your Kubernetes cluster. It assumes that you have already
-[installed](install.md) the Helm client and library (typically by `helm
+[installed](/docs/intro/install) the Helm client and library (typically by `helm
 init`).
 
 If you are simply interested in running a few quick commands, you may
-wish to begin with the [Quickstart Guide](quickstart.md). This chapter
+wish to begin with the [Quickstart Guide](/docs/intro/quickstart). This chapter
 covers the particulars of Helm commands, and explains how to use Helm.
 
 ## Three Big Concepts
@@ -24,7 +24,7 @@ cluster. Think of it like the Kubernetes equivalent of a Homebrew formula,
 an Apt dpkg, or a Yum RPM file.
 
 A *Repository* is the place where charts can be collected and shared.
-It's like Perl's [CPAN archive](http://www.cpan.org) or the
+It's like Perl's [CPAN archive](https://www.cpan.org) or the
 [Fedora Package Database](https://admin.fedoraproject.org/pkgdb/), but for
 Kubernetes packages.
 
@@ -462,7 +462,7 @@ sure your Helm client is up to date by running `helm repo update`.
 
 ## Creating Your Own Charts
 
-The [Chart Development Guide](charts.md) explains how to develop your own
+The [Chart Development Guide](/docs/topics/chart_template_guide) explains how to develop your own
 charts. But you can get started quickly by using the `helm create`
 command:
 

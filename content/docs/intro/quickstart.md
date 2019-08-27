@@ -29,20 +29,17 @@ NOTE: Kubernetes versions prior to 1.6 have limited or no support for role-based
 
 As with all powerful tools, ensure you are installing it correctly for your scenario.
 
-If you're using Helm on a cluster that you completely control, like minikube or a cluster on a private network in which sharing is not a concern, the default installation -- which applies no security configuration -- is fine, and it's definitely the easiest. To install Helm without additional security steps, [install Helm](#Install-Helm) and then [initialize Helm](#initialize-helm).
-
-However, if your cluster is exposed to a larger network or if you share your cluster with others -- production clusters fall into this category -- you must take extra steps to secure your installation to prevent careless or malicious actors from damaging the cluster or its data. To apply configurations that secure Helm for use in production environments and other multi-tenant scenarios, see [Securing a Helm installation](securing_installation.md)
+If you're using Helm on a cluster that you completely control, like minikube or a cluster on a private network in which sharing is not a concern, the default installation -- which applies no security configuration -- is fine, and it's definitely the easiest. To install Helm without additional security steps, [install Helm](#install-helm) and then [initialize Helm](#initialize-helm).
 
 If your cluster has Role-Based Access Control (RBAC) enabled, you may want
-to [configure a service account and rules](rbac.md) before proceeding.
+to [configure a service account and rules](/docs/topics/chart_best_practices/rbac) before proceeding.
 
 ## Install Helm
 
 Download a binary release of the Helm client. You can use tools like
 `homebrew`, or look at [the official releases page](https://github.com/helm/helm/releases).
 
-For more details, or for other options, see [the installation
-guide](install.md).
+For more details, or for other options, see [the installation guide](/docs/intro/install).
 
 ## Initialize Helm
 
@@ -75,7 +72,7 @@ independently managed and upgraded.
 
 The `helm install` command is a very powerful command with many
 capabilities. To learn more about it, check out the [Using Helm
-Guide](using_helm.md)
+Guide](/docs/intro/using_helm)
 
 ## Learn About Releases
 

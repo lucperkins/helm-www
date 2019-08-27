@@ -19,8 +19,8 @@ repository. This guide explains how to do so.
 
 ## Prerequisites
 
-* Go through the [Quickstart](quickstart.md) Guide
-* Read through the [Charts](charts.md) document
+* Go through the [Quickstart](/docs/intro/quickstart) Guide
+* Read through the [Charts](/docs/topics/charts) document
 
 ## Create a chart repository
 
@@ -43,7 +43,7 @@ own web server.
 A chart repository consists of packaged charts and a special file called
 `index.yaml` which contains an index of all of the charts in the repository.
 Frequently, the charts that `index.yaml` describes are also hosted on the same
-server, as are the [provenance files](provenance.md).
+server, as are the [provenance files](/docs/topics/provenance).
 
 For example, the layout of the repository `https://example.com/charts` might
 look like this:
